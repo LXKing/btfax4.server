@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <StartWorkingDirectory>
+    </StartWorkingDirectory>
+    <StartAction>Project</StartAction>
+    <StartProgram>
+    </StartProgram>
+    <StartArguments>1</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <StartAction>Program</StartAction>
+    <StartProgram>D:\02.Project\1.Bridgetec\01. Btfax3.0\4. Src\6.TPC\Bin\TiffProcessor.exe</StartProgram>
+    <StartWorkingDirectory>D:\02.Project\1.Bridgetec\01. Btfax3.0\4. Src\6.TPC\Bin\</StartWorkingDirectory>
+    <StartArguments>1</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <StartProgram>D:\1.프로젝트\1.브리지텍\1. BTFAX\3. BTFAX 4.0\z. 소스\5. Tiff Processor\Bin\x86\debug\TiffProcessor.exe</StartProgram>
+    <StartWorkingDirectory>
+    </StartWorkingDirectory>
+    <StartArguments>1</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <StartArguments>1</StartArguments>
+  </PropertyGroup>
+</Project>

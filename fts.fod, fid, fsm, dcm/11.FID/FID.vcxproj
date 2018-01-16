@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CAEF8559-F857-4CC2-AE5D-B1316A9AD24B}</ProjectGuid>
+    <RootNamespace>FID</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+    <ProjectName>fts.fid</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>bin\debug</OutDir>
+    <IntDir>bin\debug</IntDir>
+    <TargetName>fid.x86.2008.d</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>bin\debug\</OutDir>
+    <IntDir>bin\debug\</IntDir>
+    <TargetName>fax_fid.x64.d</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>bin\release</OutDir>
+    <IntDir>bin\release</IntDir>
+    <TargetName>fid.x86.2008.r</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>bin\release</OutDir>
+    <TargetName>fax_fid.x64.r</TargetName>
+    <IntDir>bin\release</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WINDOWS7;_WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>./;../../01.ado_win7;../../02.ado_xp;../03.btfax_core;../05.Common;../06.FtsCommon/include;./ImageConvertLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>./;../03.btfax_core;../06.FtsCommon/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>FtsCommon.x86.2008.d.lib;btfax.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <PostBuildEvent>
+      <Command>mkdir "$(TargetDir)\..\..\..\..\zz.Bin\bin_fid\log"
+mkdir "$(TargetDir)\..\..\..\..\zz.Bin\bin_fid\cfg"
+mkdir "$(TargetDir)\..\..\..\..\zz.Bin\bin_fid\tif"
+
+copy "$(TargetDir)\*.dll" "$(TargetDir)\..\..\..\..\zz.Bin\bin_fid\*.dll"
+copy "$(TargetPath)" "$(TargetDir)\..\..\..\..\zz.Bin\bin_fid\$(TargetFileName)"</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>copy "$(TargetDir)..\..\..\03.btfax_core\*.dll" "$(TargetDir)\*.dll"
+copy "$(TargetDir)..\..\..\07.MFC_WIN32\*.dll" "$(TargetDir)\*.dll"</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WINDOWS7;_WIN64;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>./;../../01.ado_win7;../../02.ado_xp;../03.btfax_core;../05.Common;../06.FtsCommon/include;./ImageConvertLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>./;../03.btfax_core;../06.FtsCommon/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>FtsCommon.x64.d.lib;btfax64.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <PostBuildEvent>
+      <Command>mkdir "$(TargetDir)\..\..\..\..\bin\bin_fid\log"
+mkdir "$(TargetDir)\..\..\..\..\bin\bin_fid\cfg"
+mkdir "$(TargetDir)\..\..\..\..\bin\bin_fid\tif"
+
+copy "$(TargetDir)\*.dll" "$(TargetDir)\..\..\..\..\bin\bin_fid\*.dll"
+copy "$(TargetPath)" "$(TargetDir)\..\..\..\..\bin\bin_fid\$(TargetFileName)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WINDOWS7;WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>./;../../01.ado_win7;../../02.ado_xp;../03.btfax_core;../05.Common;../06.FtsCommon/include;./ImageConvertLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>FtsCommon.x86.2008.r.lib;btfax.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>./;../03.btfax_core;../06.FtsCommon/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <PreBuildEvent>
+      <Command>copy "$(TargetDir)..\..\..\03.btfax_core\*.dll" "$(TargetDir)\*.dll"
+copy "$(TargetDir)..\..\..\07.MFC_WIN32\*.dll" "$(TargetDir)\*.dll"</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Command>mkdir "$(TargetDir)\..\..\..\..\zz.Bin\bin_fid\x86\log"
+mkdir "$(TargetDir)\..\..\..\..\zz.Bin\bin_fid\x86\\cfg"
+mkdir "$(TargetDir)\..\..\..\..\zz.Bin\bin_fid\x86\\tif"
+
+copy "$(TargetDir)\*.dll" "$(TargetDir)\..\..\..\..\zz.Bin\bin_fid\x86\\*.dll"
+copy "$(TargetPath)" "$(TargetDir)\..\..\..\..\zz.Bin\bin_fid\x86\\$(TargetFileName)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WINDOWS7;_WIN64;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>./;../../01.ado_win7;../../02.ado_xp;../03.btfax_core;../05.Common;../06.FtsCommon/include;./ImageConvertLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>./;../03.btfax_core;../06.FtsCommon/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>FtsCommon.x64.r.lib;btfax64.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <PostBuildEvent>
+      <Command>mkdir "$(TargetDir)\..\..\..\..\bin\bin_fid\log"
+mkdir "$(TargetDir)\..\..\..\..\bin\bin_fid\cfg"
+mkdir "$(TargetDir)\..\..\..\..\bin\bin_fid\tif"
+
+copy "$(TargetDir)\*.dll" "$(TargetDir)\..\..\..\..\bin\bin_fid\*.dll"
+copy "$(TargetPath)" "$(TargetDir)\..\..\..\..\bin\bin_fid\$(TargetFileName)"</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>copy "$(TargetDir)..\..\..\03.btfax_core\*.dll" "$(TargetDir)\*.dll"
+copy "$(TargetDir)..\..\..\08.MFC_WIN64\*.dll" "$(TargetDir)\*.dll"</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\FID.ico" />
+    <None Include="res\FID.rc2" />
+    <None Include="res\main.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\11.btfax_core\btfax.h" />
+    <ClInclude Include="..\..\11.btfax_core\btfema.h" />
+    <ClInclude Include="..\..\11.btfax_core\btflib.h" />
+    <ClInclude Include="..\05.Common\EasySize.h" />
+    <ClInclude Include="..\05.Common\TabConfig.h" />
+    <ClInclude Include="..\05.Common\TabInfo.h" />
+    <ClInclude Include="..\05.Common\TabUiLog.h" />
+    <ClInclude Include="APP.h" />
+    <ClInclude Include="Config.h" />
+    <ClInclude Include="DbModule.h" />
+    <ClInclude Include="DLG.h" />
+    <ClInclude Include="EncryptApi.h" />
+    <ClInclude Include="FaxChThread.h" />
+    <ClInclude Include="FsmIfThread.h" />
+    <ClInclude Include="ImageConvertLib\btfconvert.h" />
+    <ClInclude Include="ImageConvertLib\t4.h" />
+    <ClInclude Include="ImageConvertLib\tfconv.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="ShmThread.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\05.Common\TabConfig.cpp" />
+    <ClCompile Include="..\05.Common\TabInfo.cpp" />
+    <ClCompile Include="..\05.Common\TabUiLog.cpp" />
+    <ClCompile Include="APP.cpp" />
+    <ClCompile Include="Config.cpp" />
+    <ClCompile Include="DbModule.cpp" />
+    <ClCompile Include="DLG.cpp" />
+    <ClCompile Include="EncryptApi.cpp" />
+    <ClCompile Include="FaxChThread.cpp" />
+    <ClCompile Include="FsmIfThread.cpp" />
+    <ClCompile Include="ImageConvertLib\btfconvert.cpp" />
+    <ClCompile Include="ImageConvertLib\t4.cpp" />
+    <ClCompile Include="ShmThread.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FID.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="FID.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

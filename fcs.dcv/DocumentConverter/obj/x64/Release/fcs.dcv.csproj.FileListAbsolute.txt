@@ -1,0 +1,16 @@
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fcs.dcv\DocumentConverter\obj\x64\Release\DocumentConverter.FrmMain.resources
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fcs.dcv\DocumentConverter\obj\x64\Release\fcs.dcv.csproj.GenerateResource.Cache
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fcs.dcv\DocumentConverter\bin\Release\fax_dcv.x64.r.exe
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fcs.dcv\DocumentConverter\bin\Release\fax_dcv.x64.r.pdb
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fcs.dcv\DocumentConverter\bin\Release\FaxCommonLib.dll
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fcs.dcv\DocumentConverter\obj\x64\Release\fax_dcv.x64.r.exe
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fcs.dcv\DocumentConverter\obj\x64\Release\fax_dcv.x64.r.pdb
+F:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fcs.dcv\DocumentConverter\bin\Release\fax_dcv.x64.r.exe
+F:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fcs.dcv\DocumentConverter\bin\Release\fax_dcv.x64.r.pdb
+F:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fcs.dcv\DocumentConverter\bin\Release\FaxCommonLib.dll
+F:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fcs.dcv\DocumentConverter\obj\x64\Release\ResolveAssemblyReference.cache
+F:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fcs.dcv\DocumentConverter\obj\x64\Release\DocumentConverter.FrmMain.resources
+F:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fcs.dcv\DocumentConverter\obj\x64\Release\GenerateResource.read.1.tlog
+F:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fcs.dcv\DocumentConverter\obj\x64\Release\GenerateResource.write.1.tlog
+F:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fcs.dcv\DocumentConverter\obj\x64\Release\fax_dcv.x64.r.exe
+F:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fcs.dcv\DocumentConverter\obj\x64\Release\fax_dcv.x64.r.pdb

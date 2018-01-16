@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <StartWorkingDirectory>
+    </StartWorkingDirectory>
+    <StartAction>Project</StartAction>
+    <StartProgram>
+    </StartProgram>
+    <StartArguments>1</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <StartProgram>
+    </StartProgram>
+    <StartWorkingDirectory>
+    </StartWorkingDirectory>
+    <StartArguments>1000000001</StartArguments>
+    <StartAction>Project</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <StartWorkingDirectory>
+    </StartWorkingDirectory>
+    <StartProgram>
+    </StartProgram>
+    <StartArguments>1</StartArguments>
+    <StartAction>Project</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <StartWorkingDirectory>
+    </StartWorkingDirectory>
+    <StartProgram>D:\02.Project\1.Bridgetec\01. Btfax3.0\4. Src\4.APO\Bin\AdapterOut.exe</StartProgram>
+    <StartArguments>1</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <StartWorkingDirectory>D:\02.Project\1.Bridgetec\01. Btfax3.0\4. Src\4.APO\Bin\</StartWorkingDirectory>
+    <StartProgram>D:\02.Project\1.Bridgetec\01. Btfax3.0\4. Src\4.APO\Bin\AdapterOut.exe</StartProgram>
+    <StartArguments>1</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <StartWorkingDirectory>D:\02.Project\1.Bridgetec\01. Btfax3.0\4. Src\4.APO\Bin\</StartWorkingDirectory>
+    <StartProgram>D:\02.Project\1.Bridgetec\01. Btfax3.0\4. Src\4.APO\Bin\AdapterOut.exe</StartProgram>
+    <StartArguments>1</StartArguments>
+  </PropertyGroup>
+</Project>

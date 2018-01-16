@@ -1,0 +1,62 @@
+### 승인대기 시험
+http://100.100.106.235:8050/
+<WRH_MSG>
+<HEADER>
+<Category>OUTBOUND</Category>
+<CommandNo>1</CommandNo>
+<Command>IS_WAIT_STATE</Command>
+<RequesterId>1112222</RequesterId>
+<DateTime>2012/08/30 10:49:50</DateTime>
+</HEADER>
+<BODY>
+<FaxId>100000073253</FaxId>
+<WaitType>A</WaitType>
+</BODY>
+</WRH_MSG>
+
+
+### SPLIT (I)
+http://100.100.106.235:8050/
+<WRH_MSG>
+<HEADER>
+<Category>INBOUND</Category>
+<CommandNo>1</CommandNo>
+<Command>SPLIT_TIF</Command>
+<RequesterId>1112222</RequesterId>
+<DateTime>2012/08/30 10:49:50</DateTime>
+</HEADER>
+<BODY>
+<FaxId>100000000001</FaxId>
+<SplitMethod>I</SplitMethod>
+<SplitDetail>1,2-4,7-</SplitDetail>
+</BODY>
+</WRH_MSG>
+
+### SPLIT (A)
+http://100.100.106.235:8050/
+<WRH_MSG>
+<HEADER>
+<Category>INBOUND</Category>
+<CommandNo>1</CommandNo>
+<Command>SPLIT_TIF</Command>
+<RequesterId>1112222</RequesterId>
+<DateTime>2012/08/30 10:49:50</DateTime>
+</HEADER>
+<BODY>
+<FaxId>100000000001</FaxId>
+<SplitMethod>A</SplitMethod>
+<SplitDetail>3</SplitDetail>
+</BODY>
+</WRH_MSG>
+
+
+
+
+
+http://100.100.106.235:8050/<WRH_MSG><HEADER><Category>INBOUND</Category><CommandNo>1</CommandNo><Command>/SPLIT_TIF</Command><RequesterId>034983 </RequesterId><DateTime>2012-10-11 11:13:25</DateTime></HEADER><BODY><FaxId>100000003910</FaxId><SplitMethod>I</SplitMethod><SplitDetail>1-3</SplitDetail><FileCount>1</FileCount></BODY></WRH_MSG>
+http://100.100.107.31:8050/<WRH_MSG><HEADER><Category>INBOUND</Category><CommandNo>1</CommandNo><Command>/SPLIT_TIF</Command><RequesterId>034983 </RequesterId><DateTime>2012-10-11 11:13:25</DateTime></HEADER><BODY><FaxId>100000003910</FaxId><SplitMethod>I</SplitMethod><SplitDetail>1-3</SplitDetail><FileCount>1</FileCount></BODY></WRH_MSG>
+
+
+
+
+http://100.100.106.235:8050/<WRH_MSG><HEADER><Category>INBOUND</Category><CommandNo>1</CommandNo><Command>SPLIT_TIF</Command><RequesterId>lhope </RequesterId><DateTime>2012-11-15 15:20:20</DateTime></HEADER><BODY><FaxId>100000004669</FaxId><SplitMethod>A</SplitMethod><SplitDetail>5</SplitDetail></BODY></WRH_MSG>

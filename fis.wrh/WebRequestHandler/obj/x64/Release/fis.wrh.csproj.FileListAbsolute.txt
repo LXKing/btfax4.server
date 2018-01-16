@@ -1,0 +1,8 @@
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fis.wrh\WebRequestHandler\bin\release\fax_wrh.x64.r.exe
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fis.wrh\WebRequestHandler\bin\release\fax_wrh.x64.r.pdb
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fis.wrh\WebRequestHandler\bin\release\FaxCommonLib.dll
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fis.wrh\WebRequestHandler\obj\x64\Release\WebRequestHandler.FrmMain.resources
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fis.wrh\WebRequestHandler\obj\x64\Release\WebRequestHandler.Properties.Resources.resources
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fis.wrh\WebRequestHandler\obj\x64\Release\fis.wrh.csproj.GenerateResource.Cache
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fis.wrh\WebRequestHandler\obj\x64\Release\fax_wrh.x64.r.exe
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fis.wrh\WebRequestHandler\obj\x64\Release\fax_wrh.x64.r.pdb

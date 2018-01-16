@@ -1,0 +1,7 @@
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fcs.dcv.callback\bin\Release\dcv_callback.exe.config
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fcs.dcv.callback\bin\Release\dcv_callback.exe
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fcs.dcv.callback\bin\Release\dcv_callback.pdb
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fcs.dcv.callback\obj\x86\Release\SERVER.DCVImgMakerCall.Properties.Resources.resources
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fcs.dcv.callback\obj\x86\Release\fcs.dcv.callback.csproj.GenerateResource.Cache
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fcs.dcv.callback\obj\x86\Release\dcv_callback.exe
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fcs.dcv.callback\obj\x86\Release\dcv_callback.pdb

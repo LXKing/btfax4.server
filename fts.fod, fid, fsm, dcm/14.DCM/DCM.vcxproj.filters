@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\05.Common\TabConfig.cpp" />
+    <ClCompile Include="..\05.Common\TabInfo.cpp" />
+    <ClCompile Include="..\05.Common\TabUiLog.cpp" />
+    <ClCompile Include="APP.cpp" />
+    <ClCompile Include="Config.cpp" />
+    <ClCompile Include="DbModule.cpp" />
+    <ClCompile Include="DLG.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="DcmDataRow.cpp">
+      <Filter>DsmIF</Filter>
+    </ClCompile>
+    <ClCompile Include="DcmDataColumn.cpp">
+      <Filter>DsmIF</Filter>
+    </ClCompile>
+    <ClCompile Include="DcmDataTable.cpp">
+      <Filter>DsmIF</Filter>
+    </ClCompile>
+    <ClCompile Include="DcmDataCell.cpp">
+      <Filter>DsmIF</Filter>
+    </ClCompile>
+    <ClCompile Include="DcmDataSet.cpp">
+      <Filter>DsmIF</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonAPI.cpp">
+      <Filter>DsmIF</Filter>
+    </ClCompile>
+    <ClCompile Include="FaxChanelMonitoringThread.cpp">
+      <Filter>Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="FaxCdrThread.cpp">
+      <Filter>Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="iBulkFile.cpp">
+      <Filter>Cdr</Filter>
+    </ClCompile>
+    <ClCompile Include="FaxQueueMonitoringThread.cpp">
+      <Filter>Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="IConvEncoder.cpp">
+      <Filter>Encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="DsmIfSession.cpp">
+      <Filter>DsmIF</Filter>
+    </ClCompile>
+    <ClCompile Include="DsmIfSession_Recv.cpp">
+      <Filter>DsmIF</Filter>
+    </ClCompile>
+    <ClCompile Include="DsmIfSession_HB.cpp">
+      <Filter>DsmIF</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\05.Common\EasySize.h" />
+    <ClInclude Include="..\05.Common\TabConfig.h" />
+    <ClInclude Include="..\05.Common\TabInfo.h" />
+    <ClInclude Include="..\05.Common\TabUiLog.h" />
+    <ClInclude Include="APP.h" />
+    <ClInclude Include="Config.h" />
+    <ClInclude Include="DbModule.h" />
+    <ClInclude Include="DLG.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="DcmDataRow.h">
+      <Filter>DsmIF</Filter>
+    </ClInclude>
+    <ClInclude Include="DcmDataColumn.h">
+      <Filter>DsmIF</Filter>
+    </ClInclude>
+    <ClInclude Include="DcmDataTable.h">
+      <Filter>DsmIF</Filter>
+    </ClInclude>
+    <ClInclude Include="DcmDataCell.h">
+      <Filter>DsmIF</Filter>
+    </ClInclude>
+    <ClInclude Include="DcmDataSet.h">
+      <Filter>DsmIF</Filter>
+    </ClInclude>
+    <ClInclude Include="Structures.h">
+      <Filter>DsmIF</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonAPI.h">
+      <Filter>DsmIF</Filter>
+    </ClInclude>
+    <ClInclude Include="FaxChanelMonitoringThread.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="FaxCdrThread.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="iBulkFile.h">
+      <Filter>Cdr</Filter>
+    </ClInclude>
+    <ClInclude Include="FaxQueueMonitoringThread.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="IConvEncoder.h">
+      <Filter>Encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="DsmIfSession.h">
+      <Filter>DsmIF</Filter>
+    </ClInclude>
+    <ClInclude Include="DsmIfSession_Recv.h">
+      <Filter>DsmIF</Filter>
+    </ClInclude>
+    <ClInclude Include="DsmIfSession_HB.h">
+      <Filter>DsmIF</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FOD.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\res\main.ico" />
+    <None Include="ReadMe.txt" />
+    <None Include="res\FOD.ico" />
+    <None Include="res\FOD.rc2" />
+    <None Include="res\main.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="DsmIF">
+      <UniqueIdentifier>{ca7bed1e-e6d4-4620-99b6-3da0a899bdfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Threading">
+      <UniqueIdentifier>{301446ac-a81a-423d-b0fb-9217bacaf6fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cdr">
+      <UniqueIdentifier>{2102c3b7-4c66-4863-8290-58f1fa39f5f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Encoding">
+      <UniqueIdentifier>{7b2a183b-a056-4399-8314-f907a93d3e9f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

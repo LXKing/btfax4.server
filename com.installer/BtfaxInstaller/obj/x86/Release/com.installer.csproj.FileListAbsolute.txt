@@ -1,0 +1,13 @@
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\com.installer\BtfaxInstaller\bin\Release\Installer.exe
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\com.installer\BtfaxInstaller\bin\Release\Installer.pdb
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\com.installer\BtfaxInstaller\obj\x86\Release\BtfaxInstaller.MainForm.resources
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\com.installer\BtfaxInstaller\obj\x86\Release\BtfaxInstaller.Properties.Resources.resources
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\com.installer\BtfaxInstaller\obj\x86\Release\BtfaxInstaller.UCBase.resources
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\com.installer\BtfaxInstaller\obj\x86\Release\BtfaxInstaller.UCFinish.resources
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\com.installer\BtfaxInstaller\obj\x86\Release\BtfaxInstaller.UCIntro.resources
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\com.installer\BtfaxInstaller\obj\x86\Release\BtfaxInstaller.UCMenus.resources
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\com.installer\BtfaxInstaller\obj\x86\Release\BtfaxInstaller.UCInstallBase.resources
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\com.installer\BtfaxInstaller\obj\x86\Release\BtfaxInstaller.UCProgressBar.resources
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\com.installer\BtfaxInstaller\obj\x86\Release\com.installer.csproj.GenerateResource.Cache
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\com.installer\BtfaxInstaller\obj\x86\Release\Installer.exe
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\com.installer\BtfaxInstaller\obj\x86\Release\Installer.pdb

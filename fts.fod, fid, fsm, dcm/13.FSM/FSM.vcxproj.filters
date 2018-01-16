@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="00.MFC_frame">
+      <UniqueIdentifier>{f23f4a33-ee7b-4df1-9945-6732cec88f15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Global">
+      <UniqueIdentifier>{4a404eec-4983-4410-a4eb-05e9111aac33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="30.Common">
+      <UniqueIdentifier>{51c01b33-2ae1-4317-8ec6-9ae2029d8619}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Thread">
+      <UniqueIdentifier>{26d98fdf-4a78-4b48-8d3a-4c7e09d7bf70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.SIP">
+      <UniqueIdentifier>{b8599a9c-926b-4f2d-8db0-32b302eb12da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Timer">
+      <UniqueIdentifier>{713a50e3-05a1-4e1a-82d3-c5c950529abd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.TCP">
+      <UniqueIdentifier>{f45d455e-d0d4-40de-9378-8c3cbabccb2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Db">
+      <UniqueIdentifier>{8d5cce03-9273-4164-b269-2e417e82d9e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09.Utility">
+      <UniqueIdentifier>{57156ba0-2e83-4467-8e84-f8c37d5e6f2a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\FSM.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\FSM.ico">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\main.ico">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\icon1.ico">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>00.MFC_frame</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>01.Global</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>01.Global</Filter>
+    </ClInclude>
+    <ClInclude Include="DbModule.h">
+      <Filter>08.Db</Filter>
+    </ClInclude>
+    <ClInclude Include="SIP_TransactionHandler.h">
+      <Filter>03.SIP</Filter>
+    </ClInclude>
+    <ClInclude Include="SIP_TransportHandler.h">
+      <Filter>03.SIP</Filter>
+    </ClInclude>
+    <ClInclude Include="SIP_Utility.h">
+      <Filter>03.SIP</Filter>
+    </ClInclude>
+    <ClInclude Include="SIP_RegisterHandler.h">
+      <Filter>03.SIP</Filter>
+    </ClInclude>
+    <ClInclude Include="SIP_DialogHandler.h">
+      <Filter>03.SIP</Filter>
+    </ClInclude>
+    <ClInclude Include="TCP_Server.h">
+      <Filter>04.TCP</Filter>
+    </ClInclude>
+    <ClInclude Include="alloc.h">
+      <Filter>04.TCP</Filter>
+    </ClInclude>
+    <ClInclude Include="SIP_Dialog_StateChanged.h">
+      <Filter>03.SIP</Filter>
+    </ClInclude>
+    <ClInclude Include="SIP_Dialog_TranscStateChanged.h">
+      <Filter>03.SIP</Filter>
+    </ClInclude>
+    <ClInclude Include="SIP_Dialog_ModifyStateChanged.h">
+      <Filter>03.SIP</Filter>
+    </ClInclude>
+    <ClInclude Include="SIP_Manager.h">
+      <Filter>03.SIP</Filter>
+    </ClInclude>
+    <ClInclude Include="SIP_ChannelHunter.h">
+      <Filter>03.SIP</Filter>
+    </ClInclude>
+    <ClInclude Include="fasip.h">
+      <Filter>04.TCP</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>03.Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="SIP_AliveTimer.h">
+      <Filter>03.Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="SIP_CallingTimer.h">
+      <Filter>03.Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassUtility.h">
+      <Filter>09.Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="SIP_MGWs.h">
+      <Filter>03.SIP</Filter>
+    </ClInclude>
+    <ClInclude Include="SIP_Data.h">
+      <Filter>03.SIP</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedMemoryUtility.h">
+      <Filter>09.Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="APP.h">
+      <Filter>00.MFC_frame</Filter>
+    </ClInclude>
+    <ClInclude Include="DLG.h">
+      <Filter>00.MFC_frame</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SIP_App.h">
+      <Filter>03.SIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\05.Common\EasySize.h">
+      <Filter>30.Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\05.Common\TabConfig.h">
+      <Filter>30.Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\05.Common\TabInfo.h">
+      <Filter>30.Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\05.Common\TabUiLog.h">
+      <Filter>30.Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>01.Global</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>01.Global</Filter>
+    </ClCompile>
+    <ClCompile Include="DbModule.cpp">
+      <Filter>08.Db</Filter>
+    </ClCompile>
+    <ClCompile Include="SIP_TransactionHandler.cpp">
+      <Filter>03.SIP</Filter>
+    </ClCompile>
+    <ClCompile Include="SIP_TransportHandler.cpp">
+      <Filter>03.SIP</Filter>
+    </ClCompile>
+    <ClCompile Include="SIP_Utility.cpp">
+      <Filter>03.SIP</Filter>
+    </ClCompile>
+    <ClCompile Include="SIP_RegisterHandler.cpp">
+      <Filter>03.SIP</Filter>
+    </ClCompile>
+    <ClCompile Include="SIP_DialogHandler.cpp">
+      <Filter>03.SIP</Filter>
+    </ClCompile>
+    <ClCompile Include="SIP_Data.cpp">
+      <Filter>03.SIP</Filter>
+    </ClCompile>
+    <ClCompile Include="TCP_Server.cpp">
+      <Filter>04.TCP</Filter>
+    </ClCompile>
+    <ClCompile Include="alloc.cpp">
+      <Filter>04.TCP</Filter>
+    </ClCompile>
+    <ClCompile Include="SIP_Dialog_StateChanged.cpp">
+      <Filter>03.SIP</Filter>
+    </ClCompile>
+    <ClCompile Include="SIP_Dialog_TranscStateChanged.cpp">
+      <Filter>03.SIP</Filter>
+    </ClCompile>
+    <ClCompile Include="SIP_Dialog_ModifyStateChanged.cpp">
+      <Filter>03.SIP</Filter>
+    </ClCompile>
+    <ClCompile Include="SIP_Manager.cpp">
+      <Filter>03.SIP</Filter>
+    </ClCompile>
+    <ClCompile Include="SIP_ChannelHunter.cpp">
+      <Filter>03.SIP</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>03.Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="SIP_AliveTimer.cpp">
+      <Filter>03.Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="SIP_CallingTimer.cpp">
+      <Filter>03.Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="SIP_MGWs.cpp">
+      <Filter>03.SIP</Filter>
+    </ClCompile>
+    <ClCompile Include="SharedMemoryUtility.cpp">
+      <Filter>09.Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="APP.cpp">
+      <Filter>00.MFC_frame</Filter>
+    </ClCompile>
+    <ClCompile Include="DLG.cpp">
+      <Filter>00.MFC_frame</Filter>
+    </ClCompile>
+    <ClCompile Include="SIP_App.cpp">
+      <Filter>03.SIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\05.Common\TabConfig.cpp">
+      <Filter>30.Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\05.Common\TabInfo.cpp">
+      <Filter>30.Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\05.Common\TabUiLog.cpp">
+      <Filter>30.Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FSM.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

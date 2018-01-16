@@ -1,0 +1,8 @@
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fis.ltm\LoopTestModule\bin\debug\FaxCommonLib.dll
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fis.ltm\LoopTestModule\obj\x64\Debug\LoopTestModule.FrmMain.resources
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fis.ltm\LoopTestModule\obj\x64\Debug\LoopTestModule.Properties.Resources.resources
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fis.ltm\LoopTestModule\obj\x64\Debug\fis.ltm.csproj.GenerateResource.Cache
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fis.ltm\LoopTestModule\bin\debug\fax_ltm.x64.r.exe
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fis.ltm\LoopTestModule\bin\debug\fax_ltm.x64.r.pdb
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fis.ltm\LoopTestModule\obj\x64\Debug\fax_ltm.x64.r.exe
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fis.ltm\LoopTestModule\obj\x64\Debug\fax_ltm.x64.r.pdb

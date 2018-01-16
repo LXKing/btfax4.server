@@ -1,0 +1,9 @@
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fis.psi\PostFID\bin\debug\fax_psi.x64.r.exe
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fis.psi\PostFID\bin\debug\fax_psi.x64.r.pdb
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fis.psi\PostFID\bin\debug\FaxAgent.Common.dll
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fis.psi\PostFID\bin\debug\FaxCommonLib.dll
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fis.psi\PostFID\obj\x86\Debug\PostFid.FrmMain.resources
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fis.psi\PostFID\obj\x86\Debug\PostFid.Properties.Resources.resources
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fis.psi\PostFID\obj\x86\Debug\fis.psi.csproj.GenerateResource.Cache
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fis.psi\PostFID\obj\x86\Debug\fax_psi.x64.r.exe
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fis.psi\PostFID\obj\x86\Debug\fax_psi.x64.r.pdb

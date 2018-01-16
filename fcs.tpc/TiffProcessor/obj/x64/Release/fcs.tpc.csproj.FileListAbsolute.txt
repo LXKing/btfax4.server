@@ -1,0 +1,16 @@
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fcs.tpc\TiffProcessor\bin\release\fax_tpc.x64.r.exe
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fcs.tpc\TiffProcessor\bin\release\fax_tpc.x64.r.pdb
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fcs.tpc\TiffProcessor\bin\release\FaxCommonLib.dll
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fcs.tpc\TiffProcessor\obj\x64\Release\TiffProcessor.FrmMain.resources
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fcs.tpc\TiffProcessor\obj\x64\Release\fcs.tpc.csproj.GenerateResource.Cache
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fcs.tpc\TiffProcessor\obj\x64\Release\fax_tpc.x64.r.exe
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fcs.tpc\TiffProcessor\obj\x64\Release\fax_tpc.x64.r.pdb
+F:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fcs.tpc\TiffProcessor\bin\release\fax_tpc.x64.r.exe
+F:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fcs.tpc\TiffProcessor\bin\release\fax_tpc.x64.r.pdb
+F:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fcs.tpc\TiffProcessor\bin\release\FaxCommonLib.dll
+F:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fcs.tpc\TiffProcessor\obj\x64\Release\ResolveAssemblyReference.cache
+F:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fcs.tpc\TiffProcessor\obj\x64\Release\TiffProcessor.FrmMain.resources
+F:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fcs.tpc\TiffProcessor\obj\x64\Release\GenerateResource.read.1.tlog
+F:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fcs.tpc\TiffProcessor\obj\x64\Release\GenerateResource.write.1.tlog
+F:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fcs.tpc\TiffProcessor\obj\x64\Release\fax_tpc.x64.r.exe
+F:\11.source.changs@gamil.com\10.btfax4\btfax4.server\fcs.tpc\TiffProcessor\obj\x64\Release\fax_tpc.x64.r.pdb

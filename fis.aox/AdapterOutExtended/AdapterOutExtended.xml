@@ -1,0 +1,25 @@
+﻿<CONFIG>
+  <!-- FCS Config Path -->
+  <FCS_CONFIG_PATH>../</FCS_CONFIG_PATH>
+
+  <!-- File - Storage Check -->
+  <FILE_CHECK_TYPE>F1</FILE_CHECK_TYPE>
+  <!-- 1:file only OR 2:file,info -->
+  <!--<STG_HOME_PATH>\aox\upload<STG_HOME_PATH/>-->
+  <FILE_AOX_UPLOAD_PATH>1_outbound_upload\</FILE_AOX_UPLOAD_PATH>
+  <FILE_AOX_PROCESS_PATH>1_outbound_upload\Process\</FILE_AOX_PROCESS_PATH>
+  <FILE_AOX_EXCEPTION_PATH>1_outbound_upload\Exception\</FILE_AOX_EXCEPTION_PATH>
+  <FILE_TIF_FILE_FORMAT>@SID_@FMFN_@DSFN_@TIME.tif</FILE_TIF_FILE_FORMAT>
+  <!--<FILE_TIF_FILE_FORMAT>SINDORICO@SID(8)_@FMFN(13)=@DSFN(13)@TIME(6).tif</FILE_TIF_FILE_FORMAT>-->
+  <FILE_DELIMITER>_</FILE_DELIMITER>
+  <FILE_INFO_FILE_EXT>info</FILE_INFO_FILE_EXT>
+
+  <FILE_PROCESS_COUNT>10</FILE_PROCESS_COUNT> <!-- 한번에 처리할 개수 -->
+
+  
+  <!-- EMail Check -->
+  <EMAIL_ADDR>juniver7@naver.com</EMAIL_ADDR>
+  <EMAIL_ID>juniver7</EMAIL_ID>
+  <EMAIL_PW>123456</EMAIL_PW>
+
+</CONFIG>

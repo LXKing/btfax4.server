@@ -1,0 +1,5 @@
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\com.winsvc\WindowsService\WindowsService\bin\Release\btfax_svc.exe.config
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\com.winsvc\WindowsService\WindowsService\bin\Release\btfax_svc.exe
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\com.winsvc\WindowsService\WindowsService\bin\Release\btfax_svc.pdb
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\com.winsvc\WindowsService\WindowsService\obj\Release\btfax_svc.exe
+E:\11.source.changs@gamil.com\10.btfax4\btfax4.server\com.winsvc\WindowsService\WindowsService\obj\Release\btfax_svc.pdb
